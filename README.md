@@ -94,5 +94,10 @@ San Diego exhibits a consistent and temperate climate characterized by strong se
 
 ---
 
-## 👤 Author: Ares Xing
-A data science analysis project focused on long-term climate exploration using historical weather data.
+## 👤 Author
+
+**Ares Xing**  
+Master’s graduate in Data Science with strong training in statistical modeling, machine learning, and data-driven analysis.  
+Also brings 10 years of professional experience in intellectual property (IP) law, providing a multidisciplinary perspective that combines analytical rigor with real-world legal and policy insight.
+
+This project applies data science techniques to explore long-term climate patterns using historical weather data, with a focus on statistical analysis, visualization, and climate trend interpretation.
