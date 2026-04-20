@@ -81,6 +81,7 @@ The dataset contains daily weather observations including temperature, precipita
 - Pandas
 - NumPy
 - Matplotlib
+- Seaborn
 - SciPy
 
 ---
