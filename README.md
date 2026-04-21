@@ -34,18 +34,21 @@ The dataset contains daily weather observations including temperature, precipita
 
 ### 🌡️ Temperature Trends
 - Temperatures remain stable over time with no strong long-term warming or cooling trend.
+- Data shows long-term temperature fluctuations with an overall warming trend. Cold periods appear in the late 1940s and around 2000, while warmer years become more frequent after 1980. However, there is a recent dip in temperatures after 2015.
 ![yearly_average_temperature_trend.png](outputs/figures/yearly_average_temperature_trend.png)
-- Seasonal cycles are clearly defined: ![seasonal_decompose.png](outputs/figures/seasonal_decompose.png)
+- Seasonal cycles are clearly defined:
   - Coldest months: January & December (~57°F)
   - Warmest month: August (~72°F)
-- Most daily temperatures fall between **55°F and 75°F**, indicating a mild climate.
+![seasonal_decompose.png](outputs/figures/seasonal_decompose.png)
+- Most daily temperatures fall between **55°F and 75°F**, indicating a mild climate: a clear seasonal temperature pattern, with the highest temperatures in late summer and the lowest in mid-winter. August is the warmest month (~77.3°F) and January the coldest (~48.6°F). The consistent gap between max and min temperatures indicates a stable daily temperature range of about 15–18°F year-round.
 ![monthly_average_maximum_minimum_temperature.png](outputs/figures/monthly_average_maximum_minimum_temperature.png)
 ---
 
 ### 🌧️ Precipitation Patterns
-- Rainfall is highly seasonal:![monthly_rainfall_distribution.png](outputs/figures/monthly_rainfall_distribution.png)
+- Rainfall is highly seasonal:
   - Wet season: December – March (peak ~170 mm in January)
   - Dry season: May – September (near zero rainfall)
+![monthly_rainfall_distribution.png](outputs/figures/monthly_rainfall_distribution.png)
 - Most precipitation events are light to moderate.
 - Heavy rain and dry days occur less frequently.
 - annual precipitation from about 1938 to 2026 with a LOWESS-smoothed trend line. Rainfall varies significantly year to year, with early extreme highs and lows. Overall, the long-term trend rises slightly until the mid-1980s and then gradually declines back toward earlier levels, with more stable values in recent years around 8–10 inches.
