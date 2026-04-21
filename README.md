@@ -37,8 +37,7 @@ The dataset contains daily weather observations including temperature, precipita
 - Data shows long-term temperature fluctuations with an overall warming trend. Cold periods appear in the late 1940s and around 2000, while warmer years become more frequent after 1980. However, there is a recent dip in temperatures after 2015.
 ![yearly_average_temperature_trend.png](outputs/figures/yearly_average_temperature_trend.png)
 - Seasonal cycles are clearly defined:
-  - Coldest months: January & December (~57°F)
-  - Warmest month: August (~72°F)
+Seasonality dominates the temperature pattern, with a stable annual cycle of summer warming and winter cooling. The long-term trend shows gradual warming with noticeable multi-decade shifts, especially after the 1970s. After removing these effects, the remaining variation mostly reflects short-term weather noise and anomalies.
 ![seasonal_decompose.png](outputs/figures/seasonal_decompose.png)
 - Most daily temperatures fall between **55°F and 75°F**, indicating a mild climate: a clear seasonal temperature pattern, with the highest temperatures in late summer and the lowest in mid-winter. August is the warmest month (~77.3°F) and January the coldest (~48.6°F). The consistent gap between max and min temperatures indicates a stable daily temperature range of about 15–18°F year-round.
 ![monthly_average_maximum_minimum_temperature.png](outputs/figures/monthly_average_maximum_minimum_temperature.png)
@@ -46,12 +45,13 @@ The dataset contains daily weather observations including temperature, precipita
 
 ### 🌧️ Precipitation Patterns
 - Rainfall is highly seasonal:
-  - Wet season: December – March (peak ~170 mm in January)
+  - Wet season: December – March (peak ~ 2 inches in January)
   - Dry season: May – September (near zero rainfall)
 ![monthly_rainfall_distribution.png](outputs/figures/monthly_rainfall_distribution.png)
-- Most precipitation events are light to moderate.
-- Heavy rain and dry days occur less frequently.
-- annual precipitation from about 1938 to 2026 with a LOWESS-smoothed trend line. Rainfall varies significantly year to year, with early extreme highs and lows. Overall, the long-term trend rises slightly until the mid-1980s and then gradually declines back toward earlier levels, with more stable values in recent years around 8–10 inches.
+- Most precipitation events are no rain.
+- Light, moderate, and heavy rain events are all relatively rare, with most days showing little to no significant precipitation.
+![rain_distribution.png](outputs/figures/rain_distribution.png)
+Annual precipitation from about 1938 to 2026 with a LOWESS-smoothed trend line. Rainfall varies significantly year to year, with early extreme highs and lows. Overall, the long-term trend rises slightly until the mid-1980s and then gradually declines back toward earlier levels, with more stable values in recent years around 8–10 inches.
 - ![yearly_total_rainfall_trend.png](outputs/figures/yearly_total_rainfall_trend.png)
 ---
 
@@ -68,8 +68,8 @@ The dataset contains daily weather observations including temperature, precipita
   - High: 111°F
   - Low: 29°F
 - Minimum temperatures are gradually increasing over time.
+![historical_extreme_temperatures_by_year.png](outputs/figures/historical_extreme_temperatures_by_year.png)
 - Hot days (>90°F) are becoming more frequent in recent decades.
-- ![historical_extreme_temperatures_by_year.png](outputs/figures/historical_extreme_temperatures_by_year.png)
 - Data shows extreme heat days (>90°F) from 1940–2025. While the highest peaks occurred earlier, recent decades show more frequent and consistent high-heat days.
 ![extreme_heat_events_over_time.png](outputs/figures/extreme_heat_events_over_time.png)
   
