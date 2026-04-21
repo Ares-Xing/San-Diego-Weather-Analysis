@@ -70,8 +70,7 @@ Annual precipitation from about 1938 to 2026 with a LOWESS-smoothed trend line. 
   - Low: 29°F
 - Minimum temperatures are gradually increasing over time.
 ![historical_extreme_temperatures_by_year.png](outputs/figures/historical_extreme_temperatures_by_year.png)
-- Hot days (>90°F) are becoming more frequent in recent decades.
-- Data shows extreme heat days (>90°F) from 1940–2025. While the highest peaks occurred earlier, recent decades show more frequent and consistent high-heat days.
+- Hot days (>90°F) are becoming more frequent in recent decades: extreme heat days (>90°F) from 1940–2025. While the highest peaks occurred earlier, recent decades show more frequent and consistent high-heat days.
 ![extreme_heat_events_over_time.png](outputs/figures/extreme_heat_events_over_time.png)
   
 ---
