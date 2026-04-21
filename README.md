@@ -101,3 +101,12 @@ Master’s graduate in Data Science with strong training in statistical modeling
 Also brings 10 years of professional experience in intellectual property (IP) law, providing a multidisciplinary perspective that combines analytical rigor with real-world legal and policy insight.
 
 This project applies data science techniques to explore long-term climate patterns using historical weather data, with a focus on statistical analysis, visualization, and climate trend interpretation.
+
+## How to Run This Project
+
+1. Clone the repository:
+```bash
+git clone https://github.com/your-username/your-repo.git
+cd your-repo
+pip install -r requirements.txt
+Launch Jupyter Notebook
