@@ -51,6 +51,7 @@ Seasonality dominates the temperature pattern, with a stable annual cycle of sum
 - Most precipitation events are no rain.
 - Light, moderate, and heavy rain events are all relatively rare, with most days showing little to no significant precipitation.
 ![rain_distribution.png](outputs/figures/rain_distribution.png)
+
 Annual precipitation from about 1938 to 2026 with a LOWESS-smoothed trend line. Rainfall varies significantly year to year, with early extreme highs and lows. Overall, the long-term trend rises slightly until the mid-1980s and then gradually declines back toward earlier levels, with more stable values in recent years around 8–10 inches.
 - ![yearly_total_rainfall_trend.png](outputs/figures/yearly_total_rainfall_trend.png)
 ---
