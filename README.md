@@ -34,6 +34,7 @@ The dataset contains daily weather observations including temperature, precipita
 
 ### 🌡️ Temperature Trends
 - Temperatures remain stable over time with no strong long-term warming or cooling trend.
+-  Monthly Rainfall Distribution: ![Yearly Average Temperature Trend.png](outputs/figures/Yearly Average Temperature Trend.png.png)
 - Seasonal cycles are clearly defined:
   - Coldest months: January & December (~57°F)
   - Warmest month: August (~72°F)
