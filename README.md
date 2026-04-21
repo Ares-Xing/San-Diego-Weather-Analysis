@@ -39,7 +39,7 @@ The dataset contains daily weather observations including temperature, precipita
   - Coldest months: January & December (~57°F)
   - Warmest month: August (~72°F)
 - Most daily temperatures fall between **55°F and 75°F**, indicating a mild climate.
-
+![monthly_average_maximum_minimum_temperature.png](outputs/figures/monthly_average_maximum_minimum_temperature.png)
 ---
 
 ### 🌧️ Precipitation Patterns
@@ -48,13 +48,15 @@ The dataset contains daily weather observations including temperature, precipita
   - Dry season: May – September (near zero rainfall)
 - Most precipitation events are light to moderate.
 - Heavy rain and dry days occur less frequently.
-
+- annual precipitation from about 1938 to 2026 with a LOWESS-smoothed trend line. Rainfall varies significantly year to year, with early extreme highs and lows. Overall, the long-term trend rises slightly until the mid-1980s and then gradually declines back toward earlier levels, with more stable values in recent years around 8–10 inches.
+- ![yearly_total_rainfall_trend.png](outputs/figures/yearly_total_rainfall_trend.png)
 ---
 
 ### 🌡️ Temperature vs Precipitation
 - Weak negative correlation (**r = -0.165**) between temperature and precipitation.
 - Higher temperatures slightly correspond to lower rainfall.
 - Temperature alone is not a strong predictor of precipitation.
+![temperature_vs_precipitation.png](outputs/figures/temperature_vs_precipitation.png)
 
 ---
 
@@ -64,7 +66,10 @@ The dataset contains daily weather observations including temperature, precipita
   - Low: 29°F
 - Minimum temperatures are gradually increasing over time.
 - Hot days (>90°F) are becoming more frequent in recent decades.
-
+- ![historical_extreme_temperatures_by_year.png](outputs/figures/historical_extreme_temperatures_by_year.png)
+- It shows extreme heat days (>90°F) from 1940–2025. While the highest peaks occurred earlier, recent decades show more frequent and consistent high-heat days.
+![extreme_heat_events_over_time.png](outputs/figures/extreme_heat_events_over_time.png)
+  
 ---
 
 ## 📈 Key Insights
@@ -81,9 +86,12 @@ The dataset contains daily weather observations including temperature, precipita
 - Python
 - Pandas
 - NumPy
-- Matplotlib
+- Matplotlib.pyplot
+- Matplotlib.dates
+- Matplotlib.ticker
 - Seaborn
 - SciPy
+- Statsmodels.tsa.seasonal
 
 ---
 
