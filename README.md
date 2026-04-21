@@ -43,7 +43,7 @@ The dataset contains daily weather observations including temperature, precipita
 ---
 
 ### 🌧️ Precipitation Patterns
-- Rainfall is highly seasonal:
+- Rainfall is highly seasonal:![monthly_rainfall_distribution.png](outputs/figures/monthly_rainfall_distribution.png)
   - Wet season: December – March (peak ~170 mm in January)
   - Dry season: May – September (near zero rainfall)
 - Most precipitation events are light to moderate.
