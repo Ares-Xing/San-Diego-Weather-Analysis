@@ -34,7 +34,7 @@ The dataset contains daily weather observations including temperature, precipita
 
 ### 🌡️ Temperature Trends
 - Temperatures remain stable over time with no strong long-term warming or cooling trend.
--  Yearly Average Temperature Trend: ![yearly_average_temperature_trend.png](outputs/figures/yearly_average_temperature_trend.png)
+![yearly_average_temperature_trend.png](outputs/figures/yearly_average_temperature_trend.png)
 - Seasonal cycles are clearly defined: ![seasonal_decompose.png](outputs/figures/seasonal_decompose.png)
   - Coldest months: January & December (~57°F)
   - Warmest month: August (~72°F)
@@ -67,7 +67,7 @@ The dataset contains daily weather observations including temperature, precipita
 - Minimum temperatures are gradually increasing over time.
 - Hot days (>90°F) are becoming more frequent in recent decades.
 - ![historical_extreme_temperatures_by_year.png](outputs/figures/historical_extreme_temperatures_by_year.png)
-- It shows extreme heat days (>90°F) from 1940–2025. While the highest peaks occurred earlier, recent decades show more frequent and consistent high-heat days.
+- Data shows extreme heat days (>90°F) from 1940–2025. While the highest peaks occurred earlier, recent decades show more frequent and consistent high-heat days.
 ![extreme_heat_events_over_time.png](outputs/figures/extreme_heat_events_over_time.png)
   
 ---
